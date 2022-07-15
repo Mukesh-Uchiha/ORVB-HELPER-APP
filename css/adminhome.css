@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital@1&display=swap');
+
+#Box-container{
+    display:flex; 
+    flex-wrap: wrap;  
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 10px 10px 47px -20px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 47px -20px rgba(0,0,0,0.24);
+    box-shadow: 10px 10px 47px -20px rgba(0,0,0,0.24);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#Box-container > span{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    padding: 5px;
+    color:White;
+    cursor: pointer;
+    text-align: center;
+    font-family: Roboto;
+    margin: 10px;
+    
+    
+}
+#Box-container> span > i {
+    margin-bottom: 5px;
+
+}
+
+#Box-container> span > p {
+    line-height: 1.5;
+    display: inline-block;
+}
+
+
+#Box-container > span:nth-child(1){
+    background-color:#f44336;
+}
+
+#Box-container > span:nth-child(2){
+    background-color:#ff6801;
+}
+#Box-container > span:nth-child(3){
+    background-color:#0fc70f;
+}
+#Box-container > span:nth-child(4){
+    background-color:#2196f3;
+}
+#Box-container > span:nth-child(5){
+    background-color:#c7c40f;
+}

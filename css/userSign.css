@@ -1,0 +1,114 @@
+
+  
+  .signup-box {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    width: 400px;
+
+  }
+  
+  
+  .head1{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  .signup-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #393E46;
+    text-align: center;
+    
+  }
+  .adminHead1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #393E46;
+    text-align: center;
+     font-family: 'Open Sans', sans-serif;
+  }
+  
+  .signup-box .user-box1 {
+    position: relative;
+  }
+  
+  .signup-box .user-box1 input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #393E46;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #393E46;
+    outline: none;
+    background: transparent;
+  }
+  .signup-box .user-box1 label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #393E46;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+
+  }
+  
+  .signup-box .user-box1 input:focus ~ label,
+  .signup-box .user-box1 input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #00ADB5;
+    font-size: 12px;
+  }
+  
+ .foot1{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+ .sublogin1{
+    flex: 1;
+    padding: 16px 0px;
+    margin: 4px 1px;
+    cursor: pointer;
+
+
+ }
+ .sublogin1 a {
+    text-decoration: none;
+    text-decoration: none;
+    color: #00ADB5;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+
+ .subsignup1 button{
+    background-color: #00ADB5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .subsignup1 button:hover {opacity: 0.6}
+
+
+
+
+  
