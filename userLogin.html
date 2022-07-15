@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\userLogin.css">
+    <link rel="stylesheet" href="css\userSign.css">
+    <link rel="stylesheet" href="css\navbar.css">
+
+
+</head>
+<body>
+    <div id="nav">
+     <div class ="logo"  style="float:left;">
+        OnRoad
+     </div>
+     <div class="menu" style="float:right;">
+        
+             <a href="admin.html"><span>Admin Login</span> </a> 
+            
+             <a href="delivery.html"><span>Delivery Login</span>  </a> 
+        
+             <a href="shop.html"><span> Mechanical Login</span> </a>
+        </ul>
+     </div>
+    </div>
+    <div id="flex-container">
+        <div class="flex-container">
+            <div CLASS="login">
+              
+                <div class="login-box">
+                  <h2 class="adminHead1">User Login</h2>
+                  <form action="/" method="post">
+                      <div class="user-box">
+                          <input type="text" name="uname" required>
+                          <label for="uname"><b>Username</b></label>
+                      </div>
+          
+                    <div class="user-box">
+                        
+                      <input type="password" name="psw" required /> 
+                      <label for="psw"><b>Password</b></span></label> 
+                  
+                    </div>
+                    <div class="foot">
+                      <div class="subsignup"><a href="#">Forget Password?</a></div>
+                      <div class="sublogin">
+                          <button>Login</button>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+
+            </div>
+            <div class="divider">
+           
+            </div>
+            <div CLASS="register">
+
+              <div class="signup-box">
+                <h2 class="adminHead1">User Sign-In </h2>
+                <form action="/" method="post">
+                    <div class="user-box1">
+                        
+                      <input type="text" name="name" required />
+                        <label for="name">
+                            <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <b>Username</b>
+                        </label>
+                    </div>
+                    <div class="user-box1">
+                        
+                      <input type="text" name="number" required />
+                        <label for="number">
+                            <span><i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                            <b>Phone Number</b>
+                        </label>
+                    </div> 
+
+                  <div class="user-box1">
+                    <input type="email" name="email"  required />
+                    <label for="email"><span><i aria-hidden="true" class="fa fa-envelope"></i></span> <b>Email</b></label>
+                  </div>
+
+                  <div class="user-box1">
+                  <input type="password" name="password" required />    
+                    <label for="password"><span><i aria-hidden="true" class="fa fa-lock"></i></span> <b>Password</b></label>
+                  </div>
+
+                  <div class="foot1">
+                    <div class="subsignup"></div>
+                    <div class="subsignup1">
+                        <button>Sign In</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>  
+
+          </div>
+
+    </div>
+</body>
+</html>
